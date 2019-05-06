@@ -17,23 +17,23 @@ main {
 }
 
 .page-article {
-    padding: 50px;
+    padding: 0px;
 }
 
 h1 {
-    font-size: 4.209rem;
-}
-
-h2 {
     font-size: 3.157rem;
 }
 
-h3 {
+h2 {
     font-size: 2.369rem;
 }
 
+h3 {
+    font-size: 1.777rem;
+}
+
 .nav-bar {
-    height: 100px;
+    height: 60px;
     background-color: #f2f2f2;
     margin: 0;
     position: fixed;
@@ -44,23 +44,23 @@ h3 {
 
 .nav-bar img {
     display: inline-block;
-    height: 90px;
-    padding-top: 5px;
+    max-height: 50px;
+    padding: 5px;
 }
 
 .article-title {
     text-align: center;
-    padding: 180px 0 100px;
+    padding: 100px 0 50px;
     margin: 0;
 }
 
 .life-section {
-    padding: 0 30px 80px;
+    padding: 0 30px 30px;
     margin: 0;
 }
 
 .sublife-content {
-    padding: 30px 0;
+    padding: 10px 0;
 }
 
 .lifetime-heading {
@@ -77,6 +77,6 @@ h3 {
 
 @media screen and (min-width: 530px) {
     p {
-        margin: 0 100px;
+        max-width: 500px;
     }
 }
